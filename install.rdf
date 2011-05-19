@@ -11,6 +11,7 @@
 	<em:iconURL>chrome://expressionengine_detector/content/expressionengine_32.png</em:iconURL>
 	<em:homepageURL>http://www.devdemon.com/</em:homepageURL>
 	<em:version>1.1</em:version>
+	<em:type>2</em:type>
 
    
     <!-- Target Application this extension can install into, with minimum and maximum supported versions. --> 
