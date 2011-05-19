@@ -1,0 +1,15 @@
+#dd-expressionengine_detector-statusbar image {
+	list-style-image: url("chrome://expressionengine_detector/content/expressionengine.png");
+}
+
+#dd-expressionengine_detector-statusbar label {
+	font-weight:bold;
+	color:green
+}
+
+#dd-expressionengine_detector-img{
+	background-image: url("chrome://expressionengine_detector/content/expressionengine.png");
+	height:16px;
+	width:16px;
+	cursor:pointer;
+}

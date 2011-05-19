@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="chrome://expressionengine_detector/content/expressionengine_detector.css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://browser/locale/browser.dtd">
+
+<overlay id="dd-expressionengine_detector-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://expressionengine_detector/content/expressionengine_detector.js" />
+	
+	<hbox id="urlbar-icons">
+        <image id="dd-expressionengine_detector-img" insertbefore="star-button" tooltiptext="Powered by ExpressionEngine" style="display:none;"/>
+	</hbox>
+	
+	<statusbar id="status-bar">
+		<statusbarpanel id="dd-expressionengine_detector-statusbar" class="statusbarpanel-iconic" tooltiptext="Powered by ExpressionEngine" style="display:none;">
+			<image/>
+			<label value="ExpressionEngine"/>
+		</statusbarpanel>
+	</statusbar>
+</overlay>
